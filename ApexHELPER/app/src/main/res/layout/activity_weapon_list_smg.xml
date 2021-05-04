@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".weapon_list_smg">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/r99_button"
+            android:layout_width="120dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="96dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:text="r99" />
+
+        <Button
+            android:id="@+id/alternator_button"
+            android:layout_width="120dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="192dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:text="alternator" />
+
+        <Button
+            android:id="@+id/isheika_button"
+            android:layout_width="120dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="96dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:text="prowler" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

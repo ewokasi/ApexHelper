@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gibraltar_tip">
+
+    <ImageView
+        android:id="@+id/imageView110"
+        android:layout_width="556dp"
+        android:layout_height="663dp"
+        android:background="@drawable/backgr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="95dp">
+
+        <TextView
+            android:id="@+id/textView320"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView313"
+            android:text="Гибралтар может преуспеть как снайпер благодаря щиту. Когда вы целитесь, вы в основном получаете свободный выстрел, потому что щит защитит вас от входящего огня."
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textView321"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView322"
+            android:text="Защитная бомбардировка не наносит урон вашему партнеру по команде. Так что, если у вас нет своего щита, вы можете бросить его поверх них, чтобы держать врагов на расстоянии."
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textView322"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView315"
+            android:text="Брошенный щит также можно использовать для побега. Бросьте его в огонь противника, чтобы заблокировать его, пока вы выходите из ситуации."
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textView313"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Хотя у Гибралтара есть способность щита, когда он целится в прицел, это не делает его непреодолимой силой. Вы все еще должны быть уверены, что быстро уничтожите свои цели, потому что щит ограничен и довольно быстро ломается."
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textView312"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView313"
+
+            android:text="Гибралтар может преуспеть как снайпер благодаря щиту. Когда вы целитесь, вы в основном получаете свободный выстрел, потому что щит защитит вас от входящего огня."
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textView314"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView312"
+            android:text="Кроме того, вы также можете быть немного более агрессивными и использовать дробовик и SMG, потому что вы можете пережить противника из-за урона, который вы получаете с помощью личного щита."
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textView315"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView314"
+            android:text="Ваша тактическая способность отлично подходит для того, чтобы бросать на товарища по команде щит, которого нужно оживить, вылечить или когда вам нужно захватить добычу. Это также может быть хорошо, если вам нужно пережить ульт, который снижает урон в области."
+            android:textColor="@color/colorAccent" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

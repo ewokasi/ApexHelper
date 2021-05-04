@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lifeline_tip">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView329"
+        android:layout_width="365dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="308dp"
+        android:text="Если в вашей команде играет Каустик, знайте, что его газ подавляет дрона. Не спешите размещать маленького помощника, пока газ не выветрится."
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView330"
+        android:layout_width="365dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="180dp"
+        android:text="Перед тем, как нажимать на кнопку возрождения, смотрите туда, откуда могут забежать враги — во время процесса реанимации появится мощный щит, закрывающий от обстрелов на 120 градусов. Впрочем, враги всегда могут пройти сквозь него и прикончить вас."
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="365dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="-перезарядка спец способности занимает больше всего времени в игре, в среднем за игру вы сможете вызвать два-три аирдропа. В них НЕ может появиться вещи выше фиолетового качества - способность Лечащий дрон может востановить здоровье только двух человек, откат способности происходит одну минуту. -вы можете толкать вашего дрона, чтобы вести огонь под лечением, если кабеля дрона не хватает"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgr"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/Banglore_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="122dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="140dp"
+        android:text="bang"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Gibraltar_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="144dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="12dp"
+        android:text="gib"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/Bloodhound_button"
+        app:layout_constraintTop_toTopOf="@+id/Bloodhound_button" />
+
+    <Button
+        android:id="@+id/Caustic_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="101dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="508dp"
+        android:text="Caustic"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Bloodhound_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="116dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="16dp"
+        android:text="Bh"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Lifeline_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="134dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="28dp"
+        android:text="lifl"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/Banglore_button"
+        app:layout_constraintTop_toBottomOf="@+id/Gibraltar_button" />
+
+    <Button
+        android:id="@+id/Mirage_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="122dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="24dp"
+        android:text="mir"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/Banglore_button"
+        app:layout_constraintTop_toBottomOf="@+id/Banglore_button" />
+
+    <Button
+        android:id="@+id/Wraith_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="140dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="wraith"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/Lifeline_button"
+        app:layout_constraintTop_toBottomOf="@+id/Lifeline_button" />
+
+    <Button
+        android:id="@+id/Octane_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="164dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="20dp"
+        android:text="oct"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/Mirage_button"
+        app:layout_constraintTop_toBottomOf="@+id/Mirage_button" />
+
+    <Button
+        android:id="@+id/Pathfinder_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="151dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="384dp"
+        android:text="pat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="125dp"
+            android:background="@drawable/bangemb" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bloodhoundemb" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="211dp"
+            android:layout_marginLeft="211dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/gibraltaremb" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="224dp"
+            android:layout_marginLeft="224dp"
+            android:layout_marginTop="143dp"
+            android:background="@drawable/lifelineemb" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="192dp"
+            android:layout_marginLeft="192dp"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/wraithemb" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/mirageemb" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="203dp"
+            android:layout_marginLeft="203dp"
+            android:layout_marginTop="384dp"
+            android:background="@drawable/pathfinderemb" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="372dp"
+            android:background="@drawable/octaneemb" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

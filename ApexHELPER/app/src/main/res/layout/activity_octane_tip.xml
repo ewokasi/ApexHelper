@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".octane_tip">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView328"
+                android:layout_width="351dp"
+                android:layout_height="111dp"
+                android:text="Основа геймплея Октейна — это «Стимулятор». Вы можете использовать его очень часто (каждые 2 секунды), но каждое применение снижает 10 единиц здоровья. Разрешено истратить все здоровье на стимуляторы и персонаж не умрет — у него останется 1 ХР плюс броня."
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView326"
+                android:layout_width="351dp"
+                android:layout_height="80dp"
+                android:text="Лучше всего батут показывает себя, когда нужно запрыгнуть на крышу, скалу или уступ — возникните неожиданно перед врагами, чтобы внести сумятицу в их ряды. Только не прыгайте непосредственно на врагов — им не составит труда расстрелять Октейна в полете.  "
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView327"
+                android:layout_width="349dp"
+                android:layout_height="82dp"
+                android:text="-используя стимулятор вы не можете себя убить
+        -также с большей скоростью вы будете выше карабкаться
+        -Спец способность Октейна имеет самую быструю перезарядку"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView325"
+                android:layout_width="349dp"
+                android:layout_height="82dp"
+                android:text="Способности Октейна делают его полезным, но крайне неудачным персонажем для командной игры. Его нужно брать только тогда, когда в отряде есть другие скоростные персонажи — Рэйф, Мираж или Патфайндер."
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="355dp"
+                android:layout_height="90dp"
+                android:text="Не применяйте батут во время простого отступления назад — враги, как и вы, запрыгнут на него и продолжат преследование. Размещайте его с умом, так, чтобы враги обманулись простотой этой операции и полетели совсем не туда, куда вы"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

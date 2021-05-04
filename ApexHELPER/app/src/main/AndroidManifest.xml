@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apexhelper">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".meds"></activity>
+        <activity android:name=".weber" />
+        <activity android:name=".gibraltar_tip" />
+        <activity android:name=".weapon_list_shotgun_mastif" />
+        <activity android:name=".weapon_list_sniper" />
+        <activity android:name=".weapon_list_lmg_devotion" />
+        <activity android:name=".weapon_list_lmg_spitfair" />
+        <activity android:name=".weapon_list_pistol_wingman" />
+        <activity android:name=".weapon_list_pistol_p2020" />
+        <activity android:name=".weapon_list_pistol_re45" />
+        <activity android:name=".weapon_list_shotgun_mozajoke" />
+        <activity android:name=".weapon_list_shotgun_eva" />
+        <activity android:name=".weapon_list_shotgun_peacekeper" />
+        <activity android:name=".weapon_list_smg_alternator" />
+        <activity android:name=".weapon_list_smg_r99" />
+        <activity android:name=".weapon_list_smg_isheika" />
+        <activity android:name=".weapon_list_srifles_kraber" />
+        <activity android:name=".weapon_list_srifles_tripletake" />
+        <activity android:name=".weapon_list_srifles_g7" />
+        <activity android:name=".weapon_list_srifles_longbow" />
+        <activity android:name=".weapon_list_carabine_r301" />
+        <activity android:name=".weapon_list_carabine_fletline1" />
+        <activity android:name=".weapon_list_pistol" />
+        <activity android:name=".weapon_list_carabine" />
+        <activity android:name=".weapon_list_shotgun" />
+        <activity android:name=".weapon_list_lmg" />
+        <activity android:name=".weapon_list_smg" />
+        <activity android:name=".wraith_tip" />
+        <activity android:name=".bloodhound_tip" />
+        <activity android:name=".octane_tip" />
+        <activity android:name=".pathfinder_tip" />
+        <activity android:name=".mirage_tip" />
+        <activity android:name=".lifeline_tip" />
+        <activity android:name=".banglore_tip" />
+        <activity android:name=".weapon_list_hemlock" />
+        <activity android:name=".weapons_list" />
+        <activity android:name=".page_caustic" />
+        <activity android:name=".page_mirage" />
+        <activity android:name=".page_octane" />
+        <activity android:name=".page_lifeline" />
+        <activity android:name=".page_pathfinder" />
+        <activity android:name=".page_banglore" />
+        <activity android:name=".wraithpage" />
+        <activity android:name=".gibraltarpage" />
+        <activity android:name=".thirdActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".banglore_tip">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="354dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="-Используйте дымы для поднятия ваших союзников
+-Способность Ускоренный марш действует не только когда в вас попали, но и когда мимо вас пролетела пуля
+-используйте свою способность только если вы уверены, что у вашего противника нет Бладхаунда, так как тот может использовать свою способность и испортить жизнь вашему отряду вашими же дымами
+-под действие Ускоренного марша вы также карабкаетесь выше обычного
+-Спец умение представляет собой ковровую бомбордировку, вызываемую сигнальной гранатой, эта бомбордировка не наносит вреда союзникам, но оглушит их"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

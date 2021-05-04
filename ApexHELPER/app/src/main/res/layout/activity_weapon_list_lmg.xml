@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".weapon_list_lmg">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgr" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/devotion_button"
+            android:layout_width="120dp"
+            android:layout_height="46dp"
+            android:layout_below="@+id/spitfair_button"
+            android:layout_alignStart="@+id/spitfair_button"
+
+            android:layout_alignLeft="@+id/spitfair_button"
+            android:layout_marginStart="-0dp"
+            android:layout_marginLeft="-0dp"
+            android:layout_marginTop="70dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:text="devotion" />
+
+        <Button
+            android:id="@+id/spitfair_button"
+            android:layout_width="120dp"
+            android:layout_height="46dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="156dp"
+            android:layout_marginLeft="156dp"
+            android:layout_marginTop="84dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:text="spitfair" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

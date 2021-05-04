@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mirage_tip">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView324"
+        android:layout_width="341dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="112dp"
+        android:text="Во время высадки Мираж имеет определенное преимущество, так как способен выпустить вперед себя две приманки, находясь еще в воздухе. Это отпугнет безоружных противников и выкроит немного времени, если те вооружены — с этой целью рассчитывайте позицию приманок около контейнеров."
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="350dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="-Голопилот может активировать ловушки Нокс Каустика
+-Приманка будет двигаться также как и вы в момент броскаю. Если бросить ее во время скольжения, то приманка сначала проскользит определенное расстояние, а потом пойдет гуськом"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView323"
+        android:layout_width="349dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="224dp"
+        android:text="Основное правило — в любой непонятной ситуации пускать впереди себя приманку, причем точку конечного движения нужно указывать как можно дальше от себя. Не стоит запускайте её вверх — она вполне может не добежать до места, а упереться на середине. Откат у способности составляет 10 секунд, так что пускать её можно постоянно."
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

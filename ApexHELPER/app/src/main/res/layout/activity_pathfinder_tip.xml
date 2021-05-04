@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pathfinder_tip">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView332"
+        android:layout_width="386dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:text="Крюк Кошка очень полезен, когда вы замечаете группу врагов, или если началась перестрелка. Это позволяет вам очень быстро сократить разрыв и вывести изменяющий игру фланг вокруг ваших целей. Они наверняка не будут ожидать скорости, с которой вы сможете изменить положение."
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView333"
+        android:layout_width="386dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="348dp"
+        android:text="одновременно с зацеплением крюка можно нажать на клавишу «прыжок», чтобы придать тросу импульс и совершить гигантский прыжок."
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView334"
+        android:layout_width="386dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="232dp"
+        android:text="Сканировать маяки разрешается неограниченное количество раз за игру, но наиболее полезны они в финальных раундах, т.к. позволяют узнать о следующей игровой зоне и закрепиться на локации. Затем остается только ждать врага"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView331"
+        android:layout_width="386dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="112dp"
+        android:text="Пожалуй, самое важное преимущество тросомета – возможность взобраться на недоступные для других персонажей локации. Полезность данного навыка для снайперов неоспорима, но зачастую тросомет крайне полезен на финальных раундах игры"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wraith_tip">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="394dp"
+        android:layout_height="580dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView335"
+                android:layout_width="373dp"
+                android:layout_height="146dp"
+                android:text="После того, как вы научитесь грамотно использовать активный навык, Рейф может стать почти неприкасаемым на большом расстоянии. Мало того, что вас предупреждают, когда кто-то помечает вас, голоса произносятся, когда вы находитесь в поле зрения снайпера. Как только вы услышите, что вас видит снайпер, вы можете предупредить своих партнеров по команде."
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView338"
+                android:layout_width="368dp"
+                android:layout_height="107dp"
+                android:text="-Ваша активная способность имеет два недостатка: невозможность видеть во время ее действия других героев, а так же шлейф за Рэйф во время действия способности. Именно поэтому эту способность лучше использовать, когда враг не видит вас, либо же, чтобы подкрасться внезапно."
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView336"
+                android:layout_width="368dp"
+                android:layout_height="107dp"
+                android:text="-Ультимативная способность героя работает как за, так и против вас. Через портал может пройти любой персонаж, поэтому хорошенько подумайте, прежде чем ставить его перед вражеским отрядом или на открытой местности"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/textView337"
+                android:layout_width="373dp"
+                android:layout_height="123dp"
+                android:text="Вы можете сочетать свою ульту со смоками Бангалора и щитом Гибралтара. С помощью этой стратегии вы можете телепортировать всю свою команду в обход позади другого отряда. Чтобы защитить ваш первый портал, вы можете сделать так, чтобы Гибралтар накинул на него свой Купол Защиты, или смок Бангалора скрыл ваше местоположение."
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
